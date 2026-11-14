@@ -65,7 +65,7 @@
         <mxCell id="NO0ts_7S9ve3DNgnRuzX-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="Local AWS API Endpoint" vertex="1">
           <mxGeometry height="25" width="173" x="334.53" y="191" as="geometry" />
         </mxCell>
-        <mxCell id="NO0ts_7S9ve3DNgnRuzX-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="http://127.0.0.1:9297" vertex="1">
+        <mxCell id="NO0ts_7S9ve3DNgnRuzX-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="https://127.0.0.1:9297" vertex="1">
           <mxGeometry height="33" width="135" x="333.53" y="213" as="geometry" />
         </mxCell>
         <mxCell id="NO0ts_7S9ve3DNgnRuzX-24" parent="1" style="line;strokeWidth=2;direction=south;html=1;" value="" vertex="1">
