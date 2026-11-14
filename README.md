@@ -165,8 +165,75 @@ diff test.json downloaded.json
 
 An empty output means both files are identical.
 
+### 9. Test Terraform Integration
 
-### 9. Stop AWS Emulator
+Terraform can also be used to create AWS resources locally through AWS Emulator.
+
+**Prerequisite:** Install [Terraform](https://developer.hashicorp.com/terraform/install).
+
+9.1. Create a project directory:
+```
+mkdir -p terraform-aws-emulator
+cd terraform-aws-emulator
+```
+
+9.2. Create a [main.tf](./main.tf) file.
+
+
+9.3. Initialize Terraform:
+
+```
+terraform init
+```
+
+9.4. Preview the changes:
+
+```
+terraform plan
+```
+
+9.5. Create the S3 bucket:
+
+```
+terraform apply
+```
+
+Type `yes` when prompted.
+
+Expected output:
+
+```
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+```
+
+9.6. Verify the bucket using AWS CLI:
+
+```
+aws s3api list-buckets
+```
+
+9.7. Expected buckets:
+
+```
+test-local-bucket
+terraform-local-test-bucket
+```
+
+9.8. Delete the Terraform-managed bucket:
+
+```
+terraform destroy
+```
+
+Type `yes` when prompted.
+
+Expected output:
+
+```
+Destroy complete! Resources: 1 destroyed.
+```
+
+### 10. Stop AWS Emulator
 
 Go to the terminal running Docker and press:
 

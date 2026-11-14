@@ -1,0 +1,7 @@
+# Terraform
+terraform-aws-emulator/.terraform/
+terraform-aws-emulator/*.tfstate
+terraform-aws-emulator/*.tfstate.*
+terraform-aws-emulator/*.tfvars
+terraform-aws-emulator/*.tfvars.json
+terraform-aws-emulator/*.tfplan
