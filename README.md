@@ -25,7 +25,7 @@ mkdir -p aws-emulator
 cd aws-emulator
 ```
 
-Create a `Dockerfile`: [Dockerfile](./Dockerfile)
+Create a `Dockerfile`:  [Dockerfile](./aws-emulator/Dockerfile)
 
 ### 2. Build Docker Image
 
@@ -177,7 +177,7 @@ mkdir -p terraform-aws-emulator
 cd terraform-aws-emulator
 ```
 
-9.2. Create a [main.tf](./main.tf) file.
+9.2. Create a [main.tf](./terraform-aws-emulator/main.tf)
 
 
 9.3. Initialize Terraform:
